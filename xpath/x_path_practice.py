@@ -13,6 +13,10 @@ driver.get('file:///Users/chinna/Desktop/selenium/selenium/45-selenium/xpath/fir
 # current_url function will not take any arguments and return the current url of the tab
 print(driver.current_url)
 import ipdb;ipdb.set_trace()
+# l, n, c, s
+
+
+
 # h1 tag: x-path: //*[@id="h1Id"]
 print(driver.find_element(By.XPATH, '//*[@id="h1Id"]').text)
 print(driver.find_element(By.XPATH, '//*[@id="h1Id"]').get_attribute('class'))
